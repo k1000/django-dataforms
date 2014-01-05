@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
     name='django-dataforms',
-    version=__import__('dataforms').__version__,
+    version='00', #__import__('dataforms').__version__,
     description='Dynamic, database-driven Django forms',
     long_description=open('README.rst').read(),
     author='Jay McEntire',
