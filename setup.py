@@ -1,5 +1,5 @@
 from distutils.core import setup
-from setuptools import find_packages
+#from setuptools import find_packages
 
 setup(
     name='django-dataforms',
@@ -11,7 +11,7 @@ setup(
     url='http://github.com/django-dataforms/django-dataforms',
     download_url='https://github.com/django-dataforms/django-dataforms/downloads',
     license='GNU GPL v3',
-    packages=find_packages(exclude=['example']),
+    #packages=find_packages(exclude=['example']),
     include_package_data=True,
     zip_safe=False, # because we're including media that Django needs
     classifiers=[
