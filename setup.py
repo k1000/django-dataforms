@@ -5,7 +5,7 @@ setup(
     name='django-dataforms',
     version=__import__('dataforms').__version__,
     description='Dynamic, database-driven Django forms',
-    long_description=open('README.rst').read(),
+    #long_description=open('README.rst').read(),
     author='Jay McEntire',
     author_email='jay.mcentire@gmail.com',
     url='http://github.com/django-dataforms/django-dataforms',
